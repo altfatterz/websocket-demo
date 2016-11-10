@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: websocket-service
+
+  sleuth:
+    sampler:
+      # by default 10% of requests are sampled, here we say sample all requests
+      percentage: 1.0
